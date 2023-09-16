@@ -282,7 +282,6 @@ def winadj_mri(array):
     return array
 
 def resize(img,lab):
-    # print(img.shape)
     D,H,W = img.shape
     zoom = [1,256/H,256/W]
     img=ndimage.zoom(img,zoom,order=2)

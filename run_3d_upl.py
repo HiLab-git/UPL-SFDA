@@ -83,7 +83,6 @@ def test(config,upl_model,valid_loader,test_loader,exp_name,dataset,target):
         output_result = []
         with torch.no_grad():
             for i, (data) in enumerate(data_loader):
-                print(data["name"][0])
                 xt = data['image'].to(device)
                 xt_label = data['label'].squeeze(0).to(device)
                 output = inference(xt,upl_model)

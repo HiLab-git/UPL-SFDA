@@ -51,7 +51,6 @@ def get_largest_component(image):
     image: nd array
     """
     dim = len(image.shape)
-    # print(dim,image.shape)
     if(image.sum() == 0 ):
         # print('the largest component is null')
         return image
@@ -163,7 +162,6 @@ class aux_dec5oder(nn.Module):
     def forward(self, x, blocks):
         for i, up in enumerate(self.up_path):
             x = up(x, blocks[-i -1])
-        # print(self.n_class,'self.n_class')
         return self.last(x)
 
 

@@ -13,7 +13,6 @@ sub_folds.sort()
 d1_set = []
 d2_set = []
 for sub_name in sub_folds:
-    print(sub_name,'14')
     uid = sub_name.split('/')[-2]
     uid = int(uid.split('-')[-1])
     print('num_uid:',uid)

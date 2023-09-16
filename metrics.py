@@ -3,7 +3,6 @@ from medpy import metric
 
 def dice_eval(predict,label,num_classes):
     #Computer Dice coefficient
-    # print(predict.shape,label.shape,'6')
     dice = np.zeros(num_classes)
     eps = 1e-7
     for c in range(num_classes):
