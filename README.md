@@ -23,7 +23,9 @@ For instance, you can train the source model using modality A on the M&MS datase
  ```
 python train_source.py --config "./config/train2d_source.cfg"
 ```
-2. Download the [M&MS Dataset](http://www.ub.edu/mnms), [FeTA Dataset](https://feta.grand-challenge.org/Data/), and organize the dataset directory structure as follows, for M&MS dataset:
+2. Download the [M&MS Dataset](http://www.ub.edu/mnms), [FeTA Dataset](https://feta.grand-challenge.org/Data/), and organize the dataset directory structure as follows. 
+
+    The organized M&MS dataset can be downloaded at [Baidu Netdisk](https://pan.baidu.com/s/1ustJYI2V2qh-ZZLNu9R-WQ?pwd=2023 ).
 ```
 your/M&MS_data_root/
        train/
