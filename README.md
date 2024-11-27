@@ -1,4 +1,4 @@
-## UPL-SFDA: Uncertainty-aware Pseudo Label Guided Source-Free Domain Adaptation for Medical Image Segmentation
+﻿## UPL-SFDA: Uncertainty-aware Pseudo Label Guided Source-Free Domain Adaptation for Medical Image Segmentation
 
 This repository provides the code for "UPL-SFDA: Uncertainty-aware Pseudo Label Guided Source-Free Domain Adaptation for Medical Image Segmentation".
 
@@ -17,7 +17,7 @@ Non-exhaustive list:
 * SimpleITK
 
 ## Usage
-1. Download the [Source model on M&MS, FB, and FeTA](https://drive.google.com/drive/folders/1WF0kwDBC_xchTG-oEWpbSQjKdHZdw80s?usp=drive_link) and move the extracted source model folder to the "save_model/source_model" directory in your project.
+1. Download the [Source model on M&MS, FB, and FeTA](https://drive.google.com/file/d/16B4vSD-PeDT2k2yHgHkFWHnASWEunLR_/view?usp=drive_link) and move the extracted source model folder to the "save_model/source_model" directory in your project.
 If you prefer, you can also train the source model yourself. To do this, navigate to the config directory and open the config\trainXX.cfg file. In the config file, locate the line that specifies train_target and change its value to False. 
 For instance, you can train the source model using modality A on the M&MS datasets:
  ```
